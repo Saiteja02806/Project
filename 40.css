@@ -1,0 +1,287 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.nav-list li {
+    margin: 0 1rem;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-list li a:hover {
+    color: #ff9900;
+}
+.shopping-card-container
+{
+    background-color:bisque;
+    padding:10px;
+
+}
+.button-shoping-card-container
+{
+    margin:5px;
+    padding:5px;
+    text-align:center;
+    justify-content:center;
+}
+
+.img-cont-iner
+{
+    border-radius:5px;
+    text-align:center;
+    justify-content:center;
+    object-fit: cover;
+}
+.shopping-card-container
+{
+    display:flex;
+    box-sizing:border-box;
+    max-width:300px;
+    /* i have to arrange the all data in form of colums */
+    flex-direction: column;
+    padding:10px;
+    margin:10px;
+    border-radius:5px;
+
+}
+
+.bg-container
+{
+    /* we need to place the elements side by side in this div container */
+    
+
+}
+.heading-container
+{
+    text-align:start;
+    justify-content:left;
+}
+.para-container
+{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    font-weight:lighter;
+}
+ul {
+    list-style-type: square; /* You can use different values like "circle", "disc", etc. */
+    margin-left: 20px;       /* Adjust the indentation of the list */
+  }
+  .contact-details
+  {
+    background-color: rgb(17, 16, 16);
+    
+  }
+  .col-eleme-nts
+  {
+    color:white;
+  }
+  
+
+  .col-elements {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+  }
+
+  .footer-container {
+    display: flex; /* Use flexbox to arrange elements side by side */
+
+background-color: black;}
+
+.footer {
+    width: 20%; /* Each footer will take 50% of the container width */
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color:white;
+}
+.para-conta-iner
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:30px;
+    font-weight:bolder;
+}
+.chan-ge-conta-iner 
+{  /* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.nav-list li {
+    margin: 0 1rem;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-list li a:hover {
+    color: #ff9900;
+}
+.shopping-card-container
+{
+    background-color:bisque;
+    padding:10px;
+
+}
+.button-shoping-card-container
+{
+    margin:5px;
+    padding:5px;
+    text-align:center;
+    justify-content:center;
+}
+
+.img-cont-iner
+{
+    border-radius:5px;
+    text-align:center;
+    justify-content:center;
+    object-fit: cover;
+}
+.shopping-card-container
+{
+    display:flex;
+    box-sizing:border-box;
+    max-width:300px;
+    /* i have to arrange the all data in form of colums */
+    flex-direction: column;
+    padding:10px;
+    margin:10px;
+    border-radius:5px;
+
+}
+
+.bg-container
+{
+    /* we need to place the elements side by side in this div container */
+    
+
+}
+.heading-container
+{
+    text-align:start;
+    justify-content:left;
+}
+.para-container
+{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    font-weight:lighter;
+}
+ul {
+    list-style-type: square; /* You can use different values like "circle", "disc", etc. */
+    margin-left: 20px;       /* Adjust the indentation of the list */
+  }
+  .contact-details
+  {
+    background-color: rgb(17, 16, 16);
+    
+  }
+  .col-eleme-nts
+  {
+    color:white;
+  }
+  
+
+  .col-elements {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+  }
+
+  .footer-container {
+    display: flex; /* Use flexbox to arrange elements side by side */
+
+background-color: black;}
+
+.footer {
+    width: 20%; /* Each footer will take 50% of the container width */
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color:white;
+}
+.para-conta-iner
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:30px;
+    font-weight:bolder;
+}
+.chan-ge-conta-iner
+{ 
+    margin:10px;
+    padding:5px;
+    background-color:rgb(95, 95, 229);
+    color:white;
+    border-radius:10px;
+}
+    margin:10px;
+    padding:5px;
+    background-color:rgb(95, 95, 229);
+    color:white;
+    border-radius:10px;
+}
+h1::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  h1:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  h1::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: hsl(200 100% 80%);
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+  
+ 
